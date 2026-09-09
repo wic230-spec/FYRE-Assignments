@@ -1,8 +1,8 @@
 # Programming Assignments
 
-Program1.py - 
+Program1.py - Made September 9, Prints "Hello World"
 
-Program2.py - 
+Program2.py - Made September 9, Prints "My Name"
 
 Program3.py - 
 
