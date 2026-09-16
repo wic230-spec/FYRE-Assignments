@@ -1,3 +1,8 @@
+# William Cariveau, Brenton Schnider, Elliot Robbins
+# The code is intended to record the voltage transmitted through a circuit board under varying conditions
+# Code written on 9/16/26
+# AI was used to write the program from a carefully written prompt
+# The code was manually debugged
 from machine import Pin, PWM
 import time
 
