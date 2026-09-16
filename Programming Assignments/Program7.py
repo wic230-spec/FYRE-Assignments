@@ -1,7 +1,7 @@
 # William Cariveau, Brenton Schnider, Elliot Robbins
-# The code is intended to record the voltage transmitted through a circuit board under varying conditions
+# The code is intended to record the voltage transmitted through a circuit board under varying conditions. From there, it is intended to save the results into an Excel file where they can be accessed. 
 # Code written on 9/16/26
-#AI was used to turn the idea of how the program would work into actual execution
+# AI was used to turn the idea of how the program would work into actual execution
 
 # This block records the voltage data.
 from machine import ADC
