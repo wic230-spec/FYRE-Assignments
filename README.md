@@ -6,3 +6,6 @@ September 9 - Learned how to use code to print out words and make the Arduino Na
 September 14, Learned how to send code to a microcomputer placed on a breadboard, causing the Arduino Nano ESP32 to blink under certain conditions.
 #
 September 16, Learned how to use code to read the amount of watts that can be transmitted and transfer the results into an Excel file.
+
+## Projects
+September 23 - xx, Created a program to execute the dispensing of a specific amount of powder.
