@@ -6,4 +6,4 @@ September 23 -
 Initialized the projects folder in the repository and built a flowchart for how the code will work.
 #
 September 28 -
-Created a test program to see if the motor would actually work, a program to test if the light would work using an input from the button, and a program that combines the two aforementioned programs.
+Created a test program to see if the motor would actually work, a program to test if the light would work using an input from the button, and a program that combines the two aforementioned programs. Additionally, the sensor we made in lab was tested using a program similar to that in Program 7. 
