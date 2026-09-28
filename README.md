@@ -8,4 +8,4 @@ September 14, Learned how to send code to a microcomputer placed on a breadboard
 September 16, Learned how to use code to read the amount of watts that can be transmitted and transfer the results into an Excel file.
 
 ## Projects
-September 23 - xx, Created a program to execute the dispensing of a specific amount of powder. Also built physical hardware so that the output of the code actually executes a function.
+September 23 - 30, Created a program that combines much of what was learned in the programming activities to sense rain and open an awning when it is raining.
