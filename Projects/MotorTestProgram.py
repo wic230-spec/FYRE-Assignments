@@ -1,4 +1,8 @@
-from machine import PWM
+# William Cariveau, Brenton Schnider, Elliot Robbins
+# The code is intended to test to see if the motor will spin
+# Code written on 9/28/26
+# AI was used to turn the idea of how the program would work into actual execution
+
 import time
 
 # Servo setup on pin D3
