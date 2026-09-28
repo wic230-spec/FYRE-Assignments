@@ -1,3 +1,7 @@
+# William Cariveau, Brenton Schnider, Elliot Robbins
+# The code is intended to find the baseline resistivity of the sensor we made in lab
+# Code written on 9/30/26
+# AI was used to turn the code from the test programs, as well as program5, into a program that performs our desired result. The code was debugged manually.
 from machine import Pin, PWM, ADC
 import time
 
