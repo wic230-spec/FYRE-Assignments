@@ -34,14 +34,14 @@ def read_rain_sensor():
 
 system_on = False
 last_button = 1
-current_angle = 0
+current_angle = 90
 
 last_sample_time = time.ticks_ms()
 rain_start_time = None  # Tracks continuous 0V duration
 
 # Initial state: LED OFF, Servo at 0°
 led.value(0)
-set_servo_angle(0)
+set_servo_angle(90)
 
 print("System ready. Press D5 button to turn light ON/OFF...")
 
@@ -77,28 +77,28 @@ while True:
 
             elapsed_rain_time = time.ticks_diff(time.ticks_ms(), rain_start_time)
 
-            # Rotate to 90° ONLY after 0V is sustained for 3 seconds (3000 ms)
+            # Rotate to 0° ONLY after 0V is sustained for 3 seconds (3000 ms)
             if elapsed_rain_time >= 2700:
-                if current_angle != 90:
+                if current_angle != 0:
                     print("Rain sustained for 3s ({:.2f}V)! Rotating servo to 90°.".format(voltage))
-                    set_servo_angle(90)
-                    current_angle = 90
+                    set_servo_angle(0)
+                    current_angle = 0
 
         else:  # Voltage > 0V (Dry condition)
-            # Immediately reset timer and return motor to 0°
+            # Immediately reset timer and return motor to 90°
             if rain_start_time is not None or current_angle != 0:
-                if current_angle != 0:
+                if current_angle != 90:
                     print("Voltage rose above 0V ({:.2f}V). Immediately returning servo to 0°.".format(voltage))
                 rain_start_time = None
-                set_servo_angle(0)
-                current_angle = 0
+                set_servo_angle(90)
+                current_angle = 90
 
     else:
         # System OFF: Light OFF, reset timer, return motor to 0°
         led.value(0)
         rain_start_time = None
-        if current_angle != 0:
-            set_servo_angle(0)
-            current_angle = 0
+        if current_angle != 90:
+            set_servo_angle(90)
+            current_angle = 90
 
     time.sleep(0.05)  # Fast sampling loop for instant recovery when dry
