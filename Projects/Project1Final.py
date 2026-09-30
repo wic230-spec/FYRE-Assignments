@@ -34,14 +34,14 @@ def read_rain_sensor():
 
 system_on = False
 last_button = 1
-current_angle = 90
+current_angle = 80
 
 last_sample_time = time.ticks_ms()
 rain_start_time = None  # Tracks continuous 0V duration
 
-# Initial state: LED OFF, Servo at 0°
+# Initial state: LED OFF, Servo at 10°
 led.value(0)
-set_servo_angle(90)
+set_servo_angle(80)
 
 print("System ready. Press D5 button to turn light ON/OFF...")
 
@@ -87,18 +87,18 @@ while True:
         else:  # Voltage > 0V (Dry condition)
             # Immediately reset timer and return motor to 90°
             if rain_start_time is not None or current_angle != 0:
-                if current_angle != 90:
+                if current_angle != 80:
                     print("Voltage rose above 0V ({:.2f}V). Immediately returning servo to 0°.".format(voltage))
                 rain_start_time = None
-                set_servo_angle(90)
-                current_angle = 90
+                set_servo_angle(80)
+                current_angle = 80
 
     else:
-        # System OFF: Light OFF, reset timer, return motor to 0°
+        # System OFF: Light OFF, reset timer, return motor to 10°
         led.value(0)
         rain_start_time = None
-        if current_angle != 90:
-            set_servo_angle(90)
-            current_angle = 90
+        if current_angle != 80:
+            set_servo_angle(80)
+            current_angle = 80
 
     time.sleep(0.05)  # Fast sampling loop for instant recovery when dry
