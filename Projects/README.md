@@ -1,10 +1,11 @@
 # Projects
-## Project 1:
-September 23 -
-Initialized the projects folder in the repository and built a flowchart for how the code will work.
-#
-September 28 -
-Created a test program to see if the motor would actually work, a program to test if the light would work using an input from the button, and a program that combines the two aforementioned programs. Additionally, the sensor we made in lab was tested using a program similar to that in Program 7. 
-#
-September 30 -
-Merge all of the code from the tests into one code that executes the function of opening the awning only when it's toggled on and it's raining outside.
+
+LightTestFile.py - Made September 28, Tests to see if the light works and how the Ardio Nano ESP32 can be used to make it turn on when a button is clicked.
+
+MotorTestProgram.py - Made September 28, Tests if the motor will spin with different amounts of weight on it, to ensure it is not overloaded.
+
+LightMotorButton.py - Made September 28, Combines the motor and light test functions to ensure all the code works correctly and to catch any errors before the sensor is introduced.
+
+SensorTest.py - Made September 28, Tests the baseline resistivity of the custom sensor we made in lab. 
+
+Project1Final.py - Made September 30, Combines the sensor with the light, motor, and button, using the backbone of the code in Programming Assignment #5
