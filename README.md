@@ -17,4 +17,5 @@ September 30 - Merged all of the code from the tests into one code that executes
 
 
 ## [Reflections](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Reflections)
-
+September 9 - Wrote reflection #1 on Materials Engineering
+September 23 - Wrote reflection #2 on Microcontrollers
