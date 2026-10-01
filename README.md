@@ -18,5 +18,3 @@ September 30 - Merged all of the code from the tests into one code that executes
 
 ## [Reflections](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Reflections)
 
-## [Back to Portfolio](https://wic230-spec.github.io/Portfolio/)
-
