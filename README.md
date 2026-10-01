@@ -1,4 +1,4 @@
-## Programming Assignments
+## [Programming Assignments] (https://github.com/wic230-spec/FYRE-Assignments/tree/main/Programming%20Assignments)
 September 9 - Learned how to use code to print out words and make the Arduino Nano ESP32 blink.
 #
 September 14, Learned how to send code to a microcomputer placed on a breadboard, causing the Arduino Nano ESP32 to blink under certain conditions.
