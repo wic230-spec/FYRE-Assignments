@@ -9,3 +9,6 @@ September 16, Learned how to use code to read the amount of watts that can be tr
 
 ## Projects
 September 23 - 30, Created a program that combines much of what was learned in the programming activities to sense rain and open an awning when it is raining.
+
+## Reflections
+
