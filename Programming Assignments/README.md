@@ -12,6 +12,6 @@ Program5.py- Made September 14, Sends code to the Ardio Nano ESP32 telling it to
 
 Program6.py- Made September 16, Rotates a servo motor's arm 180 degrees using the Ardio Nano ESP32.
 
-Program7.py- Made September 16, Code records the voltage transmitted through a circuit board under varying conditions and sends it to an Excel spereadsheet.
+Program7.py- Made September 16, Code records the voltage transmitted through a circuit board under varying conditions and sends it to an Excel spreadsheet.
 
-Summary Data.xl- Made September 16, Includes the graph and table of all the data collected in Program7.
+Summary Data.xlxs- Made September 16, Includes the graph and table of all the data collected in Program7.
