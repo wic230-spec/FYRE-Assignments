@@ -13,6 +13,8 @@ September 23 - Initialized the projects folder in the repository and built a flo
 September 28 - Created test programs to test the functionality of the light, servo motor, and custom-made sensor. Also tested how the light, button, and motor would work in conjunction.
 #
 September 30 - Merged all of the code from the tests into one code that executes the function of opening the awning only when it's toggled on and it's raining outside.
+
+
 <img width="315" height="267" alt="image" src="https://github.com/user-attachments/assets/edf0af1f-df9e-4a85-bc40-0dea2d66651f" />
 
 
