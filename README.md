@@ -8,7 +8,11 @@ September 14, Learned how to send code to a microcomputer placed on a breadboard
 September 16, Learned how to use code to read the amount of watts that can be transmitted and transfer the results into an Excel file.
 
 ## Projects
-September 23 - 30, Created a program that combines much of what was learned in the programming activities to sense rain and open an awning when it is raining.
+September 23 - Initialized the projects folder in the repository and built a flowchart for how the code will work.
+#
+September 28 - Created test programs to test the functionality of the light, servo motor, and custom-made sensor. Also tested how the light, button, and motor would work in conjunction.
+#
+September 30 - Merged all of the code from the tests into one code that executes the function of opening the awning only when it's toggled on and it's raining outside.
 
 ## Reflections
 
