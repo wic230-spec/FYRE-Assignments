@@ -16,7 +16,7 @@ September 30 - Merged all of the code from the tests into one code that executes
 <img width="315" height="267" alt="image" src="https://github.com/user-attachments/assets/edf0af1f-df9e-4a85-bc40-0dea2d66651f" />
 
 
-## [Reflections](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Projects)
+## [Reflections](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Reflections)
 
 ## [Back to Portfolio](https://wic230-spec.github.io/Portfolio/)
 
