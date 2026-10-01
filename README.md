@@ -1,5 +1,3 @@
-# FYRE-Activities
-This is my repository for my FYRE "sensing the world" module
 ## Programming Assignments
 September 9 - Learned how to use code to print out words and make the Arduino Nano ESP32 blink.
 #
