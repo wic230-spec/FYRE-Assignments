@@ -1,9 +1,9 @@
 ## [Programming Assignments](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Programming%20Assignments)
 September 9 - Learned how to use code to print out words and make the Arduino Nano ESP32 blink.
 #
-September 14, Learned how to send code to a microcomputer placed on a breadboard, causing the Arduino Nano ESP32 to blink under certain conditions.
+September 14 - Learned how to send code to a microcomputer placed on a breadboard, causing the Arduino Nano ESP32 to blink under certain conditions.
 #
-September 16, Learned how to use code to read the amount of watts that can be transmitted and transfer the results into an Excel file.
+September 16 - Learned how to use code to read the amount of watts that can be transmitted and transfer the results into an Excel file.
 
 ## [Projects](https://github.com/wic230-spec/FYRE-Assignments/tree/main/Projects)
 September 23 - Initialized the projects folder in the repository and built a flowchart for how the code will work.
@@ -20,3 +20,5 @@ September 30 - Merged all of the code from the tests into one code that executes
 September 9 - Wrote reflection #1 on Materials Engineering
 #
 September 23 - Wrote reflection #2 on Microcontrollers
+#
+October 7 - Wrote reflection #3 on the Engineering Project
